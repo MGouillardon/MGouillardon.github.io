@@ -66,7 +66,7 @@ object-assign
           <div class="work__kluik" data-scroll-section>
             <div class="work__kluik__img__container">
               <div class="work__kluik__img">
-              <img data-scroll data-scroll-speed="6" src="./kluik.png" alt="kluik project picture">
+              <img data-scroll data-scroll-speed="6" src="/kluik.png" alt="kluik project picture">
               </div>
             </div>
             <div class="work__kluik__desc">
@@ -86,14 +86,14 @@ object-assign
             </div>
             <div class="work__TDEE__img__container">
               <div class="work__TDEE__img">
-              <img data-scroll data-scroll-speed="6" src="./TDEE.png" alt="TDEE project picture">
+              <img data-scroll data-scroll-speed="6" src="/TDEE.png" alt="TDEE project picture">
               </div>
             </div>
           </div>
           <div class="work__quizzos" data-scroll-section>
             <div class="work__quizzos__img__container">
               <div class="work__quizzos__img">
-              <img data-scroll data-scroll-speed="6" src="./quizzos.png" alt="quizzos project picture">
+              <img data-scroll data-scroll-speed="6" src="/quizzos.png" alt="quizzos project picture">
               </div>
             </div>
             <div class="work__quizzos__desc">
@@ -113,12 +113,12 @@ object-assign
             </div>
             <div class="work__awesome__img__container">
               <div class="work__awesome__img">
-              <img data-scroll data-scroll-speed="6" src="./e-commerce.png" alt="awesome project picture">
+              <img data-scroll data-scroll-speed="6" src="/e-commerce.png" alt="awesome project picture">
               </div>
             </div>
           </div>
     </div>
-      `,after_render:async()=>{let s=await P(()=>import("./Navbar.499d3333.js"),[]),i=await P(()=>import("./Curtain__menu.bbcee0ee.js"),[]),n=document.getElementById("work");n.innerHTML+=s.default,n.innerHTML+=i.default;let e=document.getElementById("burger-btn"),t=document.getElementById("menu__list-js"),r=document.getElementById("menu__overlay-js");e.addEventListener("click",()=>{e.classList.toggle("on"),t.classList.toggle("on"),r.classList.toggle("on")}),new ae({el:document.querySelector("[data-scroll-container]"),smooth:!0})}},he={render:async()=>`
+      `,after_render:async()=>{let s=await P(()=>import("./Navbar.499d3333.js"),[]),i=await P(()=>import("./Curtain__menu.bbcee0ee.js"),[]),n=document.getElementById("work");n.innerHTML+=s.default,n.innerHTML+=i.default;let e=document.getElementById("burger-btn"),t=document.getElementById("menu__list-js"),r=document.getElementById("menu__overlay-js");e.addEventListener("click",()=>{e.classList.toggle("on"),t.classList.toggle("on"),r.classList.toggle("on")}),new ae({el:document.querySelector("[data-scroll-container]"),smooth:!0,smartphone:{smooth:!0}})}},he={render:async()=>`
   
       <section class="about" id="about">
           
