@@ -80,8 +80,8 @@ object-assign
             
             <div class="work__TDEE__desc">
               <div class="work__TDEE__title" data-scroll data-scroll-speed="-4" data-scroll-direction="horizontal">TDEE</div>
-              <div class="work__TDEE__text"><span data-scroll data-scroll-speed="-6" data-scroll-direction="horizontal">HTML SCSS Website</span>
-              <span data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal" >with some JS for basic animation</span> </div>
+              <div class="work__TDEE__text"><span data-scroll data-scroll-speed="-6" data-scroll-direction="horizontal">JS Calculator</span>
+              <span data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal" >Calculator js with Memphis design inspiration</span> </div>
               <a class="work__TDEE__link" data-scroll data-scroll-speed="-4" data-scroll-direction="horizontal" href="https://github.com/MGouillardon/TDEE" target="_blank">Github link here</a>
             </div>
             <div class="work__TDEE__img__container">
@@ -118,7 +118,7 @@ object-assign
             </div>
           </div>
     </div>
-      `,after_render:async()=>{let s=await P(()=>import("./Navbar.499d3333.js"),[]),i=await P(()=>import("./Curtain__menu.bbcee0ee.js"),[]),n=document.getElementById("work");n.innerHTML+=s.default,n.innerHTML+=i.default;let e=document.getElementById("burger-btn"),t=document.getElementById("menu__list-js"),r=document.getElementById("menu__overlay-js");e.addEventListener("click",()=>{e.classList.toggle("on"),t.classList.toggle("on"),r.classList.toggle("on")}),new ae({el:document.querySelector("[data-scroll-container]"),smooth:!0,smartphone:{smooth:!0}})}},he={render:async()=>`
+      `,after_render:async()=>{let s=await P(()=>import("./Navbar.499d3333.js"),[]),i=await P(()=>import("./Curtain__menu.bbcee0ee.js"),[]),n=document.getElementById("work");n.innerHTML+=s.default,n.innerHTML+=i.default;let e=document.getElementById("burger-btn"),t=document.getElementById("menu__list-js"),r=document.getElementById("menu__overlay-js");e.addEventListener("click",()=>{e.classList.toggle("on"),t.classList.toggle("on"),r.classList.toggle("on")}),new ae({el:document.querySelector("[data-scroll-container]"),smooth:!0})}},he={render:async()=>`
   
       <section class="about" id="about">
           
