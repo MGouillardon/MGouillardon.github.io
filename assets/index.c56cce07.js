@@ -2,8 +2,8 @@
 
     <section class="home" id="home">
     <div class="home__left-side">
-      <h1 class="home__title" data-splitting="chars">
-        <span>Maxime</span><br /> <span>Gouillardon </span>
+      <h1 class="home__title" data-splitting>
+        Maxime<br/>Gouillardon
       </h1>
       <p data-splitting class="home__desc">Full Stack Web Developer</p>
     </div>
